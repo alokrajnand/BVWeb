@@ -9,6 +9,7 @@ import { HeaderComponent } from './pages/shared/header/header.component';
 import { FooterComponent } from './pages/shared/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
 
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 
 @NgModule({
@@ -23,6 +24,8 @@ import { HomeComponent } from './pages/home/home.component';
     BrowserModule,
     AppRoutingModule,
     AngularMaterialModule,
+    FlexLayoutModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
